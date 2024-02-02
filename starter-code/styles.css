@@ -1,0 +1,530 @@
+@font-face {
+    font-family: "IBMheader";
+    src: url(/starter-code/IBMPlexSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "IBMregular";
+    src: url(/starter-code/IBMPlexSans-Regular.ttf);
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y:visible;   
+}
+
+body {
+    background-image: url("/starter-code/assets/bg-main-mobile.png");
+    background-position:0px -300px;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+}
+
+.background__mobile{
+
+}
+
+/* Header */
+
+.header__wrapper{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.header__title {
+
+}
+
+/* Main */
+
+.main__wrapper {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+}
+
+.main__title {
+    color: #191826;
+    font-family: "IBMheader";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    letter-spacing: -0.455px; 
+    margin-bottom: 1rem;
+}
+
+.main__description{
+    color: #191826;
+    font-family: "IBMregular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* Hero */
+
+.hero__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__image{
+    width: 208.972px;
+    height: 430px;
+    position: absolute;
+    translate: 0% -20%;
+}
+
+.hero__background{
+    width: 375px;
+    height: 600px;
+    border-radius: 12px;
+    background: #191826;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero__phone__mobile{
+
+}
+
+.hero__card__wrapper{
+    width: 375px;
+    height: 546px;  
+    border-radius: 12px;
+    background: #FA7453;
+    margin-top: -11rem;
+}
+
+.hero__card__title{
+    color: #FCFAF9;
+    font-family: "IBMregular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top:3rem;
+}
+
+.hero__card__description{
+    color: #FCFAF9;
+    font-family: "IBMregular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top:1rem;
+}
+
+.hero__card__price__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top:1rem;
+}
+
+.price{
+    color: #FCFAF9;
+    font-family: "IBMregular";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 80% */
+    margin-right: 1rem;
+    margin-top:1rem;
+}
+
+.month{
+    color: #FCFAF9;
+    font-family: "IBMregular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.2px;
+}
+
+.hero__buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.hero__card__ios__button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    height: 61px;
+    border:none;
+    border-radius: 12px;
+    background: #191826;
+    color: #FCFAF9;
+    font-family: "IBMregular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    margin-bottom: 1rem;
+}
+
+.apple__logo{
+    margin-right:0.5rem;
+    margin-bottom: 0.1rem;
+}
+
+.android__logo{
+    margin-right:0.5rem;
+    margin-bottom: 0.1rem;
+}
+
+.hero__card__android__button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    height: 61px;
+    border:none;
+    border-radius: 12px;
+    color: #191826;
+    text-align: center;
+    font-family: "IBMregular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+}
+
+/* Footer */
+
+.footer__wrapper{
+    padding-top:3rem;
+    background-color: white;
+    margin-left:2rem;   
+    margin-right:2rem;   
+    margin-bottom: 2rem;
+    width: auto;
+}
+
+.footer__terms__conditions{
+    margin-top:2rem;
+    color: #191826;
+    font-family: "IBMregular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.footer__email__bold{
+    color: #191826;
+    font-family: "IBMregular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.footer__social-media__links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+    gap: 1rem;
+    margin-top:4rem;
+
+}
+
+.tablet__image{
+    display: none;
+    }
+
+.tablet__main{
+  
+}
+/* Tablet */
+
+@media (min-width:48rem) {
+
+    body{
+        overflow:hidden;
+    }
+    .header__wrapper{
+        margin-top:3rem;
+        margin-left:3rem;
+    }
+
+    body {
+        background-image: url("/starter-code/assets/bg-main-tablet.png");  
+    }
+
+    .main__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tablet__main{
+        display: flex;
+        margin-left:2rem;
+        margin-top:rem;
+    }
+
+    .tablet__image{
+        display: flex;
+    }
+
+    .main__title{
+        color: #191826;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px; /* 100% */
+        letter-spacing: -0.727px;
+    }
+
+    .main__description{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 155.556% */
+        margin-top:1rem;
+    }
+
+    .tablet__image{
+        translate:15% -40%;
+        height:400px;
+        width:auto; 
+    }
+
+    .hero__wrapper{
+        margin-top: 5rem;
+        margin-bottom: -15rem;
+    }
+
+    .hero__background{
+        width: 696px;
+        height: 600px;
+    }
+    .hero__image{
+        width: 270.206px;
+        height: 556px;
+        translate: -50% -25%; 
+    }
+
+    .hero__tablet__background-image{
+        translate: 15% -8%;
+    }
+
+    .hero__card__wrapper{
+        z-index: 1;
+        translate: 25% -50%;
+        width: 399px;
+        height: 546px;
+    }
+
+    .hero__card__title, .hero__card__description {
+        margin-left:3rem;
+    }
+
+    .price {
+        margin-left:1.5rem;
+    }
+
+    .hero__card__ios__button, .hero__card__android__button{
+        width: 296px;
+        height: 61px;
+    }
+
+    .footer__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3rem;
+    }
+    .footer__tablet{
+        width: 385px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer__terms__conditions{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    .footer__social-media__links{
+        align-items: center;
+        margin-right: 1rem;
+    }
+}
+
+/* Desktop 1440 */
+
+@media (min-width:64rem) {
+    .header__wrapper{
+        margin-top:3rem;
+        margin-left:11rem;
+    }
+    body {
+        background-image: url("/starter-code/assets/bg-main-desktop.png");
+        background-position: 55% 150%;
+ 
+    }
+
+    .tablet__main{
+        margin-top:4rem;
+        margin-left:10rem;
+        margin-right:6rem;
+    }
+
+    .main__wrapper{
+        
+    }
+
+    .main__title{
+        color: #191826;
+        font-size: 88px;
+        font-weight: 700;
+        line-height: 88px; /* 100% */
+    }
+
+     .main__description{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px; /* 100% */
+        margin-top:1rem;
+    }
+
+    .tablet__image {
+        height: 450px;
+        width: auto;
+        translate: 31% -40%;
+    }
+
+    .hero__wrapper{
+        margin-top:10rem;
+    }
+
+    .hero__background{
+        width: 1110px;
+        height: 600px;
+    }
+
+    .hero__image{
+        height: 642px;
+        width: 312px;
+        translate: -95% -32%; 
+    }
+
+    .hero__tablet__background-image{
+        height: 468px;
+        width: 312px;
+        translate: -20% -5%;
+
+    }
+
+    .hero__card__wrapper{
+        width: 446px;
+        height: 625px;;
+        z-index: 1;
+        translate: 55% -52%;
+    }
+
+    .hero__card__title{
+        font-family: IBMheader;
+        font-size:40px;
+        line-height:52px;
+        font-weight: 800;
+        margin-left: 3.5rem;
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero__card__description{
+        font-size:20px;
+        line-height:34px;
+        margin-right:4rem;
+        font-weight: 200;
+        margin-left: 3.5rem;
+    }
+
+    .hero__card__ios__button, .hero__card__android__button {
+        width: 333px;
+        height: 61px;
+    }
+    
+    .hero__card__price__wrapper{
+        margin-bottom:2.5rem;
+        margin-top:1rem;
+    }
+
+    .hero__buttons{
+        margin-top:2rem;
+    }
+
+    .footer__title{
+        margin-right:5rem;
+    }
+    .footer__wrapper{
+        margin-left: 10rem;
+        margin-right:10rem;
+    }
+    .footer__tablet{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer__terms__conditions{
+        margin-top: 0;
+    }
+
+    .footer__social-media__links{
+        margin-top:0;
+        margin-left: 20rem;
+    }
+
+    button:focus-visible,
+    .footer__links:focus-visible {
+        outline: 4px dashed #66E2DC;
+        outline-offset: 2px;
+    }
+
+.hero__card__ios__button:hover{
+    background-color: #66E2DC;
+    transition: ease-in-out 250ms;
+    cursor:pointer;
+    }
+
+.hero__card__android__button:hover {
+    background-color: #FFB964;
+    transition: ease-in-out 250ms;
+    cursor:pointer;
+    }
+
+.footer__links:hover > svg > path{
+    cursor: pointer;
+    fill:#FA7453;
+    transition: ease-in-out 250ms;
+    }
+}
